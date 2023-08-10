@@ -1,0 +1,21 @@
+.DefaultContent{
+    position: relative;
+    background-color: #44ace9;
+}
+
+.DefaultPadding{
+    padding-top: 0;
+}
+
+.DefaultText{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    text-indent: 50px;
+    border-radius: 5px;
+}
+
+.DefaultBoxContent{
+    position: absolute;
+    top: 0;
+
+}
