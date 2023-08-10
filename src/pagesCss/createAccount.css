@@ -1,0 +1,185 @@
+.divBackGroud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2980b9;
+    height: 100vh;
+}
+
+.divBox {
+    width: 60%;
+    height: 500px;
+    background-color:white;
+    border-radius: 20px;
+}
+  
+.divForm {
+    padding: 20px;
+}
+
+.LogoBox{
+    border-radius: 100px;
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.FormBox{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: right;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.FormBoxPaddingAndCenter{
+    padding: 20px;
+}
+
+.SignUpTextDesign{
+    font-size: 30px;
+}
+
+.opacity{
+    opacity: 0.1px;
+}
+
+.Logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.FillUpForm{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.InputInfoUser{
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.DefaultPadding{
+    padding-top: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 103%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .TextPaddingDefault{
+    padding: 2px;
+  }
+
+  .TextSizeDefault{
+    font-size: 14px;
+  }
+
+  input[type=radio],input[type=checkbox]{
+    margin-right: 10px;
+  }
+
+  .radiousPadding{
+    padding-right: 10px;
+  }
+
+  .Design-button{
+    width: 320px;
+    height: 40px;
+    border-radius:5px;
+    background-color: #4ea1d2;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Design-button:hover{
+    background-color: #2980b9;
+  
+  }
+
+  .ModalBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(49,49,49,0.8);
+  }
+
+  .ContentSet{
+    max-width: 600px;
+    min-width: 10px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .ContentSetText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size:16px;
+    color: black;
+  }
+
+  .ProceedButton{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2e90d1;
+    color: white;
+  }
+
+  .ProceedButton:hover{
+    background-color:  #2980b9;
+    cursor: pointer;
+  }

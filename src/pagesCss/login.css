@@ -1,0 +1,83 @@
+
+.backGroundColor {
+  background-color: #2980b9;
+  height: 100vh;
+}
+
+.Log-inBox{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.form-padding{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Affordable-threads{
+  color: #2980b9;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Console";
+  font-size:4vw;
+}
+
+.userForm{
+  color: #2980b9;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.Email-PasswordInput{
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Email-PasswordInputPadding{
+  padding-top: 10px;
+}
+
+.Design-button{
+  width: 320px;
+  height: 40px;
+  border-radius:5px;
+  background-color: #4ea1d2;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.Design-button:hover{
+  background-color: #2980b9;
+
+}
+
+.ForgetPassword{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.PaddingDefault{
+  padding-top: 10px;
+}
+
+.CreateAccountFlex{
+  display: flex;
+  justify-content: center;
+}
+
+.ForgetPassword:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
